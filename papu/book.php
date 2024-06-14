@@ -16,6 +16,48 @@
 </head>
 <body>
 
+<?php
+    require('./includes/config/conexion.php');
+    $db = conectarDB();
+    $enviado = false;
+    
+    // $query = "SELECT * FROM book";
+
+    // $result = mysqli_query($db, $query);
+
+    if($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $name= $_POST['name'];
+        $email= $_POST['email'];
+        $phone= $_POST['phone'];
+        $address= $_POST['address'];
+        $location= $_POST['location'];
+        $guests= $_POST['guests'];
+        $arrival= $_POST['arrival'];
+        $leaving= $_POST['leaving'];
+
+        //! ERRORES
+        if($name) {
+            
+        }
+
+        $query = "INSERT INTO book (name, email, phone, address, location, guests, arrival, leaving) VALUES ('$name', '$email', '$phone', '$address', '$location', '$guests', '$arrival', '$leaving')";
+
+        $result = mysqli_query($db, $query);
+
+        if($result) {
+            $enviado = true;
+        }
+    }
+
+
+
+    // while($row = $result->fetch_assoc()) {
+    //     echo $row["name"];
+    // }
+    // echo var_dump($result);
+    // echo $result;
+?>
+
 <section class="header">
 
     <a href="home.php" class="logo">ViajaConAbner</a>
@@ -41,8 +83,14 @@
 
 <h1 class="heading-tittle">Reserva tu viaje</h1>
 
+<?php 
+    if($enviado) {
+        echo '<div>Su reserva ha sido enviada</div>';
+    }
+?>
 
-<form action="book_form.php" method="post" class="book-form">
+
+<form action="book.php" method="POST" class="book-form">
 
 
         <div class="flex">
