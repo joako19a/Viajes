@@ -608,7 +608,15 @@ section {
   }
   
   
-
+  #boat {
+    cursor: pointer;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+  }
+  
+  .move {
+    transform: translateX(300px);
+    opacity: 0;
+  }
 
  
 

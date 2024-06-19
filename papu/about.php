@@ -31,7 +31,7 @@
 </section>
 
 
-<div class="heading" style="background:url(images/prueba.jpg) no-repeat">
+<div class="heading" style="background:url(images/img12.jpg) no-repeat">
     <h1>Sobre nosotros</h1>
 </div>
 

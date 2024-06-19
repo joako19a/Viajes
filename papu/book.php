@@ -74,7 +74,7 @@
 </section>
 
 
-<div class="heading" style="background:url(images/3.jpg) no-repeat">
+<div class="heading" style="background:url(images/img15.jpg) no-repeat">
     <h1>Reserva ahora</h1>
 </div>
 

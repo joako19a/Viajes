@@ -37,7 +37,7 @@
 
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide slide" style="background:url(images/mitad.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img1.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Viaja alrededor del mundo</h3>
@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/jas.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img2.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Descrubre nuevos lugares</h3>
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/mitad.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img3.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Descrubre nuevos lugares</h3>
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/hola.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img4.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Has que tu viaje valga la pena</h3>
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/jas.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img5.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Descrubre nuevos lugares</h3>
@@ -77,7 +77,23 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/jea.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/img6.jpg) no-repeat">
+                <div class="content">
+                <span>Explora, Descrubre y viaja</span>
+                <h3>Descrubre nuevos lugares</h3>
+                <a href="package.php" class="btm">Descubrir mas</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/img7.jpg) no-repeat">
+                <div class="content">
+                <span>Explora, Descrubre y viaja</span>
+                <h3>Descrubre nuevos lugares</h3>
+                <a href="package.php" class="btm">Descubrir mas</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/img8.jpg) no-repeat">
                 <div class="content">
                 <span>Explora, Descrubre y viaja</span>
                 <h3>Descrubre nuevos lugares</h3>
@@ -159,7 +175,7 @@
 
      <div class="box">
         <div class="image">
-            <img src="images/hola.jpg" alt="">
+            <img src="images/img9.jpg" alt="">
         </div>
         <div class="content">
             <h3>Aventura y Tour</h3>
@@ -170,7 +186,7 @@
 
      <div class="box">
         <div class="image">
-            <img src="images/mitad.jpg" alt="">
+            <img src="images/img10.jpg" alt="">
         </div>
         <div class="content">
             <h3>Paisajes y nada mas</h3>
@@ -181,7 +197,7 @@
 
      <div class="box">
         <div class="image">
-            <img src="images/jas.jpg" alt="">
+            <img src="images/img11.jpg" alt="">
         </div>
         <div class="content">
             <h3>Atracciones</h3>
@@ -201,7 +217,8 @@
     <div class="content">
         <h3>Hasta 50% de rebaja</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem id impedit delectus eveniet iste necessitatibus quisquam odio, reiciendis sit explicabo qui deleniti. Doloribus aliquam facilis quas iusto hic aperiam nulla?</p>
-        <a href="book.php" class="boton-descuento">Aprovecha</a>
+        
+        <img src="https://js.cx/clipart/boat.png" id="boat">
     </div>
 </section>
 
